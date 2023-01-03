@@ -3,6 +3,7 @@ import About from "./components/about/about";
 import ProductList from "./components/productList/productList";
 import Contact from "./components/contact/contact";
 import Toggle from "./components/toggle/toggle";
+import Presentation from "./components/presentation/presentation";
 import { useContext } from "react";
 import { ThemeContext } from "./context";
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -18,7 +19,7 @@ const App = () => {
   color: darkMode && "white",
 }}>
     <Intro />
-    <About />
+    <Presentation />
     <ProductList />
     <Contact />
     <Toggle />
