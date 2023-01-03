@@ -12,7 +12,7 @@ export const products = [
   },
   {
     id: 2,
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Pound_layer_cake.jpg/800px-Pound_layer_cake.jpg",
+    img: "/spaziocasa.jpg",
     link: "http://lama.dev",
     tagHtml: "HTML",
     tagCss: "CSS",
