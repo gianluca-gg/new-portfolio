@@ -12,9 +12,10 @@ const Product = ({img,link,title,desc,tagHtml,tagCss,tagJavascript,tagReact,tagF
       <a href={link} target="_blank" rel="noreferrer">
         <img src={img} alt="" className="p-img" />
       </a>
+      <div class="productContainer">
       <div className="title">
-      <p>{title}</p></div>
-      <p>{desc}</p>
+      <p class="titleProduct">{title}</p></div>
+      <p class="descProduct">{desc}</p>
       <div className="tagContainer">
       {tagHtml && <p className="tag tagHtml">{tagHtml}</p>}
       {tagCss && <p className="tag tagCss">{tagCss}</p>}
@@ -25,6 +26,7 @@ const Product = ({img,link,title,desc,tagHtml,tagCss,tagJavascript,tagReact,tagF
       {tagElementor && <p className="tag tagElementor">{tagElementor}</p>}
       {tagHotjar && <p className="tag tagHotjar">{tagHotjar}</p>}
       {tagAdobe && <p className="tag tagAdobe">{tagAdobe}</p>}
+      </div>
       </div>
     </div>
   )

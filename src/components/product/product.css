@@ -66,3 +66,36 @@
 .tagReact {
   border: 2px solid #61DBFB;
 }
+
+.tagWordpress {
+  border: 2px solid #127baa;
+}
+
+.tagElementor {
+  border: 2px solid #FF7BE5;
+}
+
+.tagAdobe {
+  border: 2px solid #3c240c;
+}
+
+.tagFigma {
+  border: 2px solid #0acf83;
+}
+
+.titleProduct {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.descProduct {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.productContainer {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 5px;
+  margin: 10px;
+}

@@ -17,15 +17,15 @@ const Presentation = () => {
               <FontAwesomeIcon icon={faCode} size="lg"/></div>
                 <h1>Developer</h1>
                 <p>Mi piace trovare soluzioni ai problemi e vedere il risultato delle mie idee materializzarsi sulla pagina.</p>
-                <p>Tecnologie e linguaggi</p>
-                <p>HTML, CSS, Javascript, React, Bootstrap, Git/Github, PHP, Wordpress</p>
+                <p className="stackTitle">Tecnologie e linguaggi</p>
+                <p>HTML, CSS, Javascript, React, Bootstrap, Git/Github, PHP, Wordpress, Next.js, Vercel</p>
               </div>
               <div className="column">
               <div className="svgContainer">
               <FontAwesomeIcon icon={faLayerGroup} size="lg"/></div>
               <h1>Designer</h1>
                 <p>Un sito che mi piace è un sito pulito, chiaro e in cui vengono valorizzate le interazioni del cliente.</p>
-                <p>Tecnologie e linguaggi</p>
+                <p className="stackTitle">Tecnologie e linguaggi</p>
                 <p>Photoshop, Illustrator, Figma, Hotjar, Wordpress, Elementor, Copywriting, Ableton, Sound Editing</p>
 
               </div>
@@ -34,7 +34,7 @@ const Presentation = () => {
               <FontAwesomeIcon icon={faBook} size="lg"/></div>
               <h1>Soft Skills</h1>
                 <p>Nelle mie esperienze lavorative ho dimostrato velocità di apprendimento e massimo impegno per raggiungere i risultati.</p>
-                <p>Soft Skills</p>
+                <p className="stackTitle">Soft Skills</p>
                 <p>Gestione dello stress, lavoro di squadra, precisione, velocità di apprendimento, curiosità, attenzione ai desideri del cliente ed empatia</p>
 
 

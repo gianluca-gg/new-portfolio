@@ -14,7 +14,7 @@ function ProductList() {
       </div>
       <div className="pl-list">
         {products.map((item)=>(
-                  <Product key={item.id} img={item.img} link={item.link} title={item.title} desc={item.desc} tagHtml={item.tagHtml} tagCss={item.tagCss} tagJavascript={item.tagJavascript} tagReact={item.tagReact} tagFigma={item.figma} tagWordpress={item.wordpress} tagElementor={item.elementor} tagHotjar={item.hotjar} tagAdobe={item.adobe}/>
+                  <Product key={item.id} img={item.img} link={item.link} title={item.title} desc={item.desc} tagHtml={item.tagHtml} tagCss={item.tagCss} tagJavascript={item.tagJavascript} tagReact={item.tagReact} tagFigma={item.tagFigma} tagWordpress={item.tagWordpress} tagElementor={item.tagElementor} tagHotjar={item.tagHotjar} tagAdobe={item.tagAdobe}/>
         ))}
 
       </div>

@@ -55,7 +55,7 @@ useEffect(() => {
       {words[currentWordIndex]}
     </p>
           <p className="i-desc">
-            I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.
+            Web Developer appassionato di comunicazione e di design.
           </p>
           <div className="lll">
           <a href="https://www.linkedin.com/in/gianluca-gattuso-334942168/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size="lg"/></a>
